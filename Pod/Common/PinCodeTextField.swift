@@ -113,12 +113,12 @@ import UIKit
     }
 
     @discardableResult override public func becomeFirstResponder() -> Bool {
-        delegate?.textFieldDidBeginEditing(self)
+//        delegate?.textFieldDidBeginEditing(self)
         return super.becomeFirstResponder()
     }
 
     @discardableResult override public func resignFirstResponder() -> Bool {
-        delegate?.textFieldDidEndEditing(self)
+//        delegate?.textFieldDidEndEditing(self)
         return super.resignFirstResponder()
     }
 
