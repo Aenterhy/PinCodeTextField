@@ -2,14 +2,14 @@
 Pod::Spec.new do |s|
 
   s.name         = "PinCodeTextField"
-  s.version      = "0.0.7"
+  s.version      = "0.0.8"
   s.summary      = "Simple pin code text input based on UIKeyInput"
 
   s.description  = <<-DESC
                   Simple pin code text input with underlines for each character placeholder
                    DESC
 
-  s.homepage     = "https://github.com/tkach/PinCodeTextField"
+  s.homepage     = "https://github.com/Aenterhy/PinCodeTextField"
 
   s.license      = { :type => "MIT" }
 
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.author       = { "Alex Tkachenko" => "tkach2004@gmail.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/tkach/PinCodeTextField.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/Aenterhy/PinCodeTextField.git", :tag => "#{s.version}" }
 
   
 
